@@ -40,6 +40,9 @@ Advertiser feed ingest: normalize, GTIN/brand/title identity, taxonomy.
 **[php-invoice-ledger](https://github.com/empirextech/php-invoice-ledger)**  
 VAT invoice arithmetic, series numbering, SaaS limits, e-invoice XML port.
 
+**[php-posting-kernel](https://github.com/empirextech/php-posting-kernel)**  
+Transactional posting: unique series, Idempotency-Key, mixed VAT, storno, outbox.
+
 **[laravel-catalog-gateway](https://github.com/empirextech/laravel-catalog-gateway)**  
 Sanctum API, unique sync jobs, HMAC webhooks, schema-checked AI enrichment.
 
