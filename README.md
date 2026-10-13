@@ -3,11 +3,11 @@
 **SC EMPIRE GLOBAL SOLUTIONS SRL** · Bucharest  
 Software architecture for commerce, invoicing, and catalog systems.
 
-[empirex.tech](https://empirex.tech) · PHP · Laravel · WooCommerce · OpenCart · PrestaShop · Cloud · AI
+[empirex.tech](https://empirex.tech) · [engineering](https://empirex.tech/engineering) · PHP · Laravel · WooCommerce · OpenCart · PrestaShop · Cloud · AI
 
 Fourteen years of shipped PHP: checkout and shipping engines, merchant feeds, marketplace connectors, invoicing, and the queues that keep those systems honest.
 
-The repositories below are original EMPIREX engineering. They are not client stores and they do not contain credentials or customer data.
+The repositories below are original EMPIREX engineering. They are not client stores and they do not contain credentials or customer data. Practice page: [empirex.tech/engineering](https://empirex.tech/engineering).
 
 ## Practice
 
