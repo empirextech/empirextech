@@ -1,43 +1,52 @@
 # EMPIREX Tech
 
-**Software Architect & Senior Full-Stack Developer**  
-PHP · AI · Cloud
+**SC EMPIRE GLOBAL SOLUTIONS SRL** · Bucharest  
+Software architecture for commerce, invoicing, and catalog systems.
 
-Fourteen years of professional work on PHP commerce systems: custom modules, checkout and shipping engines, catalog synchronization, API platforms, and the operational layer that keeps those systems running.
+[empirex.tech](https://empirex.tech) · PHP · Laravel · WooCommerce · OpenCart · PrestaShop · Cloud · AI
 
-The public repositories below are original demonstration implementations. They reconstruct engineering patterns from production work without publishing client stores, credentials, or proprietary code.
+Fourteen years of shipped PHP: checkout and shipping engines, merchant feeds, marketplace connectors, invoicing, and the queues that keep those systems honest.
 
-## Focus
+The repositories below are original EMPIREX engineering. They are not client stores and they do not contain credentials or customer data.
 
-| Area | What I actually build |
+## Practice
+
+| Domain | Work |
 | --- | --- |
-| eCommerce platforms | WooCommerce, OpenCart, PrestaShop, Shopify, WordPress |
-| Application backends | Laravel, Symfony, Node.js APIs |
-| Catalog & channels | Merchant feeds, marketplace sync, incremental push, circuit breakers |
-| Checkout | City/postcode shipping rules, delivery windows, payment gateway hooks |
-| Operations | Queue jobs, locks, logging, server-side hardening |
-| AI | Structured providers, schema validation, no unconstrained prompt-to-page |
+| Commerce platforms | WooCommerce, OpenCart, PrestaShop, Shopify, WordPress |
+| Application backends | Laravel, Symfony, Node.js, REST APIs |
+| Money & documents | Integer ledgers, VAT, e-invoice adapters, plan limits |
+| Catalog | Feed ingest, GTIN identity, incremental merchant push |
+| Checkout | City/postcode rules, delivery windows, payment hooks |
+| Operations | Locks, batch budgets, circuit breakers, signed webhooks |
 
-PHP, MySQL, JavaScript, React, Vue.js, WooCommerce, OpenCart, PrestaShop, Shopify, REST integrations.
-
-## Repositories
+## Engineering
 
 **[php-commerce-engine](https://github.com/empirextech/php-commerce-engine)**  
-PHP 8.3 library for typed money, shipping qualification, catalog mapping, batch sync, and circuit breaking. The domain layer the platform modules sit on.
+Typed money, shipping qualification, catalog mapping, batch sync, circuit breaker.
 
 **[woocommerce-checkout-architect](https://github.com/empirextech/woocommerce-checkout-architect)**  
-WooCommerce shipping method driven by JSON rules, checkout fields (delivery window, access number), and a correctly implemented invoice gateway. HPOS compatible.
+WooCommerce shipping method from JSON rules, checkout fields, invoice gateway, HPOS.
+
+**[woocommerce-merchant-sync](https://github.com/empirextech/woocommerce-merchant-sync)**  
+Incremental Merchant Center-style push: watermark, exclusive lock, product mapper.
 
 **[opencart-prestashop-extensions](https://github.com/empirextech/opencart-prestashop-extensions)**  
-OpenCart 3 city/postcode shipping plus phone-or-email identity, and a PrestaShop 8 incremental combination feed. Shared core covered by PHPUnit.
+OpenCart city shipping and phone identity. PrestaShop combination feed.
+
+**[php-feed-pipeline](https://github.com/empirextech/php-feed-pipeline)**  
+Advertiser feed ingest: normalize, GTIN/brand/title identity, taxonomy.
+
+**[php-invoice-ledger](https://github.com/empirextech/php-invoice-ledger)**  
+VAT invoice arithmetic, series numbering, SaaS limits, e-invoice XML port.
 
 **[laravel-catalog-gateway](https://github.com/empirextech/laravel-catalog-gateway)**  
-Laravel 11 API: Sanctum, product upserts, unique sync jobs, HMAC webhooks, and schema-checked AI enrichment.
+Sanctum API, unique sync jobs, HMAC webhooks, schema-checked AI enrichment.
 
-## How I work
+## Method
 
-Architecture first, then the platform adapter. Rules and money live in testable PHP. WordPress, OpenCart, and PrestaShop remain integration shells. Remote APIs are bounded with locks, batches, and circuit breakers. Secrets stay in the environment.
+Domain first. Platform adapters second. Money never as float. Remote APIs behind locks and breakers. Secrets in the environment.
 
 ## Contact
 
-GitHub: [empirextech](https://github.com/empirextech)
+[empirex.tech](https://empirex.tech) · [github.com/empirextech](https://github.com/empirextech)
